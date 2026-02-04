@@ -1,0 +1,11 @@
+{
+	"id": "local-soundboard",
+	"name": "Local Soundboard",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "A plugin that creates soundboards from local audio files in specified folders",
+	"author": "Your Name",
+	"authorUrl": "https://your-website.com",
+	"fundingUrl": "https://buymeacoffee.com/your-username",
+	"isDesktopOnly": false
+}
