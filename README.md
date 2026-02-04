@@ -145,86 +145,6 @@ The plugin supports these popular audio formats:
 - FLAC (.flac)
 - AAC (.aac)
 
-## Examples
-
-### Basic Soundboard
-Create a simple ambient sound player:
-
-\`\`\`local-soundboard
-folder: Audio/Ambient
-icon: tree-pine
-title: Background Ambience
-\`\`\`
-
-### Looping Music Player
-Perfect for background music that should continue:
-
-\`\`\`local-soundboard
-folder: Music/Background
-icon: music
-title: Epic Battle Music
-loop: true
-\`\`\`
-
-### Sound Effects Library
-Quick access to game sound effects:
-
-\`\`\`local-soundboard
-folder: Audio/SFX
-icon: zap
-title: Sound Effects
-\`\`\`
-
-### Voice Notes Organizer
-Access voice memos and recordings:
-
-\`\`\`local-soundboard
-folder: Voice/Memos
-icon: mic
-title: Voice Notes
-\`\`\`
-
-### Multiple Soundboards in One Note
-Organize different audio categories in a single note:
-
-## Audio Library
-
-### Nature Sounds
-\`\`\`local-soundboard
-folder: Audio/Nature
-icon: tree-pine
-title: Nature Ambience
-\`\`\`
-
-### Battle Effects
-\`\`\`local-soundboard
-folder: Audio/Battle
-icon: sword
-title: Combat Sounds
-loop: false
-\`\`\`
-
-### Character Voices
-\`\`\`local-soundboard
-folder: Audio/Voices
-icon: users
-title: Character Dialogue
-\`\`\`
-
-### Podcast Episodes
-\`\`\`local-soundboard
-folder: Podcasts/Episodes
-icon: headphones
-title: Recent Episodes
-\`\`\`
-
-### Production Samples
-\`\`\`local-soundboard
-folder: Production/Samples
-icon: disc
-title: Music Samples
-\`\`\`
-
 ## Real-World Use Cases
 
 ### D&D Campaign Notes
@@ -264,27 +184,6 @@ folder: Audio/Nature/Rain
 icon: cloud-rain
 title: Rain Sounds
 loop: true
-\`\`\`
-
-### Content Creation Tools
-Quick access to audio for videos and streams:
-
-\`\`\`local-soundboard
-folder: Audio/Intros
-icon: play
-title: Intro Music
-\`\`\`
-
-\`\`\`local-soundboard
-folder: Audio/Alerts
-icon: bell
-title: Notification Sounds
-\`\`\`
-
-\`\`\`local-soundboard
-folder: Audio/Outros
-icon: skip-forward
-title: Outro Music
 \`\`\`
 
 ## Configuration
@@ -346,52 +245,9 @@ The plugin uses Lucide icons for visual customization. Here are popular icon cho
 - `piano` - Piano keyboard
 - `drum` - Drum kit
 
-### Gaming & Effects
-- `zap` - Lightning bolt
-- `sword` - Sword/weapon
-- `shield` - Defense shield
-- `flame` - Fire effects
-- `snowflake` - Ice effects
-- `sparkles` - Magic effects
-- `bomb` - Explosion effects
-- `target` - Target/aim
-- `trophy` - Achievement/reward
-
-### Nature & Environment
-- `tree-pine` - Forest/pine trees
-- `cloud-rain` - Rain/weather
-- `waves` - Water/ocean
-- `mountain` - Mountains/terrain
-- `wind` - Wind/air effects
-- `sun` - Daylight/sun
-- `moon` - Night/moon
-- `cloud` - Clouds/sky
-
-### Media & Production
-- `film` - Video/film
-- `camera` - Recording/camera
-- `tv` - Television/broadcast
-- `smartphone` - Mobile media
-- `monitor` - Screen/display
-- `headset` - VR/AR headset
-
-### Organization & Files
-- `folder` - Standard folder
-- `folder-open` - Open folder
-- `file-audio` - Audio file
-- `archive` - Archive/backup
-- `database` - Data storage
-- `hard-drive` - Storage device
-
 ### Actions & Controls
 - `play` - Play button
 - `pause` - Pause button
-- `skip-back` - Previous/rewind
-- `skip-forward` - Next/forward
-- `repeat` - Loop/repeat
-- `shuffle` - Random order
-- `download` - Save/download
-- `upload` - Load/upload
 
 ### Finding More Icons
 - **Complete Library**: [lucide.dev/icons](https://lucide.dev/icons/)
@@ -480,15 +336,6 @@ If you encounter persistent issues:
    - Audio format causing issues
    - Error messages from console
 
-## Development
-
-To build the plugin from source:
-
-1. Clone this repository
-2. Run `npm install` to install dependencies
-3. Run `npm run dev` for development mode with hot reload
-4. Run `npm run build` for production build
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -496,11 +343,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-If you find this plugin helpful, consider supporting its development:
-- ⭐ Star the repository
-- 🐛 Report issues
-- 💡 Suggest new features
-- ☕ [Buy me a coffee](https://buymeacoffee.com/your-username)
